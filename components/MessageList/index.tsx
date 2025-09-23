@@ -13,7 +13,6 @@ export const MessageList: React.FC = () => {
       {messages.map((message) => (
         <Message key={message.id} message={message} />
       ))}
-      
       {isLoading && <TypingIndicator />}
     </div>
   );
