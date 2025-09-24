@@ -16,7 +16,7 @@ export const MessageInput: React.FC = () => {
   };
 
   return (
-    <div className="bg-white p-4 border-t border-gray-100 rounded-b-2xl">
+    <div className="bg-white p-3 sm:p-4 border-t border-gray-100 rounded-b-2xl">
       <div className="bg-gray-100 rounded-2xl p-2 flex items-center space-x-2">
         <Input
           value={inputMessage}

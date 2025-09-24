@@ -24,7 +24,7 @@ export const MessageList: React.FC = () => {
   }, [isLoading]);
 
   return (
-    <div className="flex-1 overflow-y-auto p-6 space-y-6 bg-slate-100">
+    <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 sm:space-y-6 bg-slate-100">
       {messages.map((message) => (
         <Message key={message.id} message={message} />
       ))}
